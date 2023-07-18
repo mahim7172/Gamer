@@ -12,6 +12,7 @@
     max-width: 1440px;
     height: 130px;
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
@@ -95,8 +96,8 @@
 }
 
 .goat-div {
-   
-    padding-top: 100px;
+   margin: auto;
+    padding-top: 90px;
     padding-left: 80px;
 }
 
@@ -162,7 +163,49 @@
     width: 100%;
     height: 90%;
 }
+/* main-section-2 */
+.online-games{
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
+.funny-video{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.online-peragraf{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 
+}
+.main-section-2-div{
+    max-width: 1440px;
+    padding-top: 50px;
+    gap: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+/* main section 3 */
+.Play-Instantly{
+    color: #0B0223;
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+}
+.Play{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
 /* mobile responsiv */
 
 @media screen and (max-width:576px) {
@@ -172,7 +215,9 @@
         flex-direction: column;
     }
     .goat-div{
-        /* padding: 50px; */
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 20px;
     }
     .nav-item,
     .about-list {
@@ -186,11 +231,25 @@
     }
 
     .section-1-first-div {
-
-
-        width: 100%;
+        margin: auto;
+     width: 80%; 
+     height: 100%;
+     padding: 0px 20px 10px 20px;
     }
+.section-1-second-div{
+    padding-left: 50px;
+    width: 80%;
+}
+.main-section-2-div{
+    flex-direction: column;
+  
 
+}
+.main-section-2-div img {
+    width: 70%;
+   padding-left: 70px;
+
+}
 }
 
 /* tab reponsive */
@@ -204,8 +263,29 @@
         width: 100%;
         flex-direction: column;
     }
-
+    .goat-div{
+       
+        align-content: center;
+        margin: auto;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
     .section-1-first-div {
-        width: 100%;
+        padding-left: 50px;
+        width: 80%;
+        
+    }
+    .section-1-second-div{
+        padding-left: 90px;
+        width: 80%;
+        
+    }
+    .main-section-2-div{
+      flex-direction: column ;}
+
+    .main-section-2-div img {
+        width: 80%;
+       padding-left: 80px;
+    
     }
 }
