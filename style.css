@@ -96,7 +96,7 @@
 }
 
 .goat-div {
-   margin: auto;
+    margin: auto;
     padding-top: 90px;
     padding-left: 80px;
 }
@@ -163,27 +163,32 @@
     width: 100%;
     height: 90%;
 }
+
 /* main-section-2 */
-.online-games{
+.online-games {
     color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
 }
-.funny-video{
+
+.funny-video {
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
-.online-peragraf{
+
+.online-peragraf {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 
 }
-.main-section-2-div{
+
+.main-section-2-div {
     max-width: 1440px;
     padding-top: 50px;
     gap: 30px;
@@ -192,57 +197,130 @@ line-height: 30px; /* 166.667% */
     justify-content: center;
     margin: auto;
 }
+
 /* main section 3 */
-.main-section-3{
+
+.main-section-3 {
     width: 1440px;
     padding-top: 100px;
     display: flex;
     margin: auto;
 }
-.section-3-first-div{
+
+.section-3-first-div {
     width: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.Play-Instantly{
+
+.Play-Instantly {
     color: #0B0223;
     text-align: right;
-font-size: 48px;
-font-weight: 700;
-line-height: 60px; 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
 }
-.Play{
+
+.Play {
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
 
 }
-.play-peragraf{
-    color: #534C64;
-text-align: right;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; }
 
-.Play-Instantly-div{
+.play-peragraf {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Play-Instantly-div {
     width: 400px;
     padding-top: 50px;
     margin: auto;
     text-align: center;
 }
 
-.section-3-second-div{
+.section-3-second-div {
     width: 50%;
 }
-.section-3-img-1{
+
+.section-3-img-1 {
     position: absolute;
 }
-.section-3-img-2{
+
+.section-3-img-2 {
     position: relative;
     top: 380px;
     left: -120px;
 }
+
+/* main-section-4 */
+.main-section-4 {
+    margin-top: 600px;
+}
+
+.games-btn {
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid red;
+    justify-content: flex-start;
+
+}
+
+.mahim {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+
+}
+
+.games-btn:hover {
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    border: 2px solid #FF42A5;
+
+}
+
+/* the footer  */
+footer {
+    margin-top: 200px;
+    background-color: #0B0223;
+}
+
+.footer-first-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.gamer-2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-second-div {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 40px;
+}
+
 /* mobile responsiv */
 
 @media screen and (max-width:576px) {
@@ -251,11 +329,13 @@ line-height: 30px; }
         padding-top: 20px;
         flex-direction: column;
     }
-    .goat-div{
+
+    .goat-div {
         margin: auto;
         padding-top: 20px;
         padding-left: 20px;
     }
+
     .nav-item,
     .about-list {
         flex-direction: column;
@@ -269,37 +349,43 @@ line-height: 30px; }
 
     .section-1-first-div {
         margin: auto;
-     width: 80%; 
-     height: 100%;
-     padding: 0px 20px 10px 20px;
+        width: 80%;
+        height: 100%;
+        padding: 0px 20px 10px 20px;
     }
-.section-1-second-div{
-    padding-left: 50px;
-    width: 80%;
-}
-.main-section-2-div{
-    flex-direction: column;
-  
 
-}
-.main-section-2-div img {
-    width: 70%;
-   padding-left: 70px;
+    .section-1-second-div {
+        padding-left: 50px;
+        width: 80%;
+    }
 
-}
-.main-section-3{
-    width: 100%;
-    padding-top: 30px;
-    flex-direction: column;
-}
-.section-3-first-div{
-    width: 80%;
-    margin: auto;
-}
-.section-3-second-div{
-    width: 100%;
-    padding-top: 20px;
-}
+    .main-section-2-div {
+        flex-direction: column;
+
+
+    }
+
+    .main-section-2-div img {
+        width: 70%;
+        padding-left: 70px;
+
+    }
+
+    .main-section-3 {
+        width: 100%;
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .section-3-first-div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-3-second-div {
+        width: 100%;
+        padding-top: 20px;
+    }
 }
 
 /* tab reponsive */
@@ -313,41 +399,49 @@ line-height: 30px; }
         width: 100%;
         flex-direction: column;
     }
-    .goat-div{
-       
+
+    .goat-div {
+
         align-content: center;
         margin: auto;
         padding-top: 50px;
         padding-left: 50px;
     }
+
     .section-1-first-div {
         padding-left: 50px;
         width: 80%;
-        
+
     }
-    .section-1-second-div{
+
+    .section-1-second-div {
         padding-left: 90px;
         width: 80%;
-        
+
     }
-    .main-section-2-div{
-      flex-direction: column ;}
+
+    .main-section-2-div {
+        flex-direction: column;
+    }
 
     .main-section-2-div img {
         width: 80%;
-       padding-left: 80px;
-    
+        padding-left: 80px;
+
     }
-    .main-section-3{
+
+    .main-section-3 {
         width: 100%;
         padding-top: 30px;
         flex-direction: column;
     }
-    .section-3-first-div{
+
+    .section-3-first-div {
         width: 80%;
         margin: auto;
     }
-    .section-3-second-div{
+
+    .section-3-second-div {
         width: 90%;
         padding-top: 20px;
         padding-left: 100px;
