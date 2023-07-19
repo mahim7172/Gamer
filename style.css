@@ -492,8 +492,8 @@ footer {
         align-items: center ;
     }
     .main-section-4{
-        /* display: flex; */
-        /* flex-wrap:wrap; */
+        display: flex;
+        flex-wrap:wrap;
         justify-content: center;
         align-items: center;
         
